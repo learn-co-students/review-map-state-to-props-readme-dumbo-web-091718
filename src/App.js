@@ -35,7 +35,7 @@ class App extends Component {
 
 const mapStateToProps = (state) => {
   debugger;
-  return { items: state.items }
+  return { items: milkshake.items }
 }
 
 export default connect(mapStateToProps)(App);
